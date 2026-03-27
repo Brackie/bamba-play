@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Brand palette - Tropical Teal */
+  --color-brand-50: #d2f0f1;
+  --color-brand-100: #a5e1e3;
+  --color-brand-200: #78d1d4;
+  --color-brand-300: #4bc2c6;
+  --color-brand-400: #34a0a4;
+  --color-brand-500: #34a0a4;
+  --color-brand-600: #297f82;
+  --color-brand-700: #1f5f62;
+  --color-brand-800: #154041;
+  --color-brand-900: #0a2021;
+
+  /* Accent - Lime Cream (highlights, CTAs) */
+  --color-accent-300: #a2c520;
+  --color-accent-400: #c3e250;
+  --color-accent-500: #d9ed92;
+  --color-accent-600: #e1f1a7;
+  --color-accent-700: #e8f4bd;
+
+  /* Leaderboard ranks */
+  --color-gold: #fbbf24;
+  --color-silver: #9ca3af;
+  --color-bronze: #d97706;
+
+  /* Surface colors - deep teal-dark */
+  --color-surface: #061416;
+  --color-surface-elevated: #0d2327;
+  --color-surface-border: #1f5f62;
+}
+
+html,
+body {
+  background-color: var(--color-surface);
+  color: #e2e8f0;
+}
